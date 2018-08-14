@@ -1,0 +1,18 @@
+redis主（写）	                             实机	"223.202.134.236备
+(221.174.25.158)"	192.168.25.18		"
+root/P@ssw0rdgangde.1
+"		
+redis从（读）（主redis为192.168.25.18）	     实机	"备
+192.168.25.217"	192.168.25.19		"root/P@ssw0rdgangde.1  monitor/%TGBvfr4#EDC
+"		
+主做了AOF持久化，从没有持久化
+
+
+
+redis03主	                             KVM	redis03主	192.168.25.87		root/0FQPmcdNLT	5802	kvm:redis-01	
+redis-04从（主redis为192.168.25.87）	     KVM	redis04从	192.168.25.89		root/0FQPmcdNLT	5803	kvm:redis-03	
+
+
+
+redis18备机2（主为18）	                     root        /4rfvBGT%
+redis87备机2	                             kvm         192.168.25.39		root/4rfvBGT%
